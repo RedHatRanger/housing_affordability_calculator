@@ -74,3 +74,7 @@ if apr_input.strip():
     # Print the principal result
     print(f"\nWith a {apr_input}% APR 30-year fixed mortgage and a monthly payment of ${housing_cost:,.2f}:")
     print(f" - You could afford an approximate initial loan amount of: ${principal_affordable:,.2f}")
+
+    # Calculate and display 20% of that principal
+    twenty_percent_amount = principal_affordable * 0.20
+    print(f" - To avoid paying PMI your 20% amount should be: ${twenty_percent_amount:,.2f}")
