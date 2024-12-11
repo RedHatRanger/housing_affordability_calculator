@@ -32,15 +32,15 @@ By using **`housing_income_calculator.py`**, you can make more informed decision
 
 ## **Detailed Description:**
 ```
-         ┌──────────────────────────────────────────────────┐
-         │                      Inputs                      │
-         │                                                  │
-         │   P = Principal (Unknown)                        │
-         │   M = Monthly Payment (Known)                    │
-         │   APR = Annual % Rate (Known)                    │
-         │   i = APR/12 = Monthly Interest Rate             │
-         │   n = 360 (for a 30-year loan)                  │
-         └─────────────────────┬────────────────────────────┘
+         ┌────────────────────────────────────────────────────────┐
+         │                      Inputs                            │
+         │                                                        │
+         │   P = Principal (The Outut Result)                     │
+         │   M = Monthly Payment (Known)                          │
+         │   APR = Annual % Rate (Known)                          │
+         │   i = APR/12 = Monthly Interest Rate (Input the APR)   │
+         │   n = 360 (for a 30-year loan)                         │
+         └─────────────────────┬──────────────────────────────────┘
                                │
                                │  Use the Mortgage Formula:
                                │
