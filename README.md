@@ -1,4 +1,4 @@
-# Housing Income Calculator
+# Housing Affordability Calculator
 
 ## **Overview:**  
 This script, **`housing_income_calculator.py`**, helps you determine the amount of gross monthly and annual income required to afford a given monthly housing expense under the commonly used "30% rule." The 30% rule suggests that total housing costs—such as rent or a mortgage payment—should not exceed 30% of your gross monthly income. Adhering to this guideline can help ensure you maintain a balanced budget and stay on track financially.
