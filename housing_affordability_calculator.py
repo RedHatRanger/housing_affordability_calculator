@@ -60,7 +60,7 @@ print(f" - Which corresponds to an annual gross income of: ${annual_income_neede
 print(f" - Hourly wage (assuming 40 hrs/week, 52 wks/yr): ${hourly_rate:,.2f}/hour")
 
 # Prompt user for APR to estimate mortgage principal (optional step)
-apr_input = input("\nEnter the Annual Percentage Rate (APR) as a percentage (Example: 5 for 5% APR) or press Enter to skip: ")
+apr_input = input("\nEnter the Annual Percentage Rate (APR) excluding the '%' sign (Example: 5 for 5% APR) or press Enter to skip: ")
 if apr_input.strip():
     try:
         apr = float(apr_input) / 100.0  # convert percentage to decimal
