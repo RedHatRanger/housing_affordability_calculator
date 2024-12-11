@@ -77,4 +77,4 @@ if apr_input.strip():
 
     # Calculate and display 20% of that principal
     twenty_percent_amount = principal_affordable * 0.20
-    print(f" - To avoid paying PMI your 20% amount should be: ${twenty_percent_amount:,.2f}")
+    print(f" - To avoid paying PMI your 20% down payment should be: ${twenty_percent_amount:,.2f}")
