@@ -39,7 +39,7 @@ def mortgage_principal_from_payment(monthly_payment, annual_interest_rate):
 # ----------------------------
 
 # Prompt user for monthly housing cost (e.g. $2600)
-housing_cost_input = input("Enter your desired monthly housing cost (e.g., 2600): ")
+housing_cost_input = input("Enter your desired monthly housing cost (Example: 2600 for $2,600 a month): ")
 try:
     housing_cost = float(housing_cost_input)
 except ValueError:
@@ -60,7 +60,7 @@ print(f" - Which corresponds to an annual gross income of: ${annual_income_neede
 print(f" - Hourly wage (assuming 40 hrs/week, 52 wks/yr): ${hourly_rate:,.2f}/hour")
 
 # Prompt user for APR to estimate mortgage principal (optional step)
-apr_input = input("\nEnter the Annual Percentage Rate (APR) as a percentage (e.g., 5 for 5%) or press Enter to skip: ")
+apr_input = input("\nEnter the Annual Percentage Rate (APR) as a percentage (Example: 5 for 5% APR) or press Enter to skip: ")
 if apr_input.strip():
     try:
         apr = float(apr_input) / 100.0  # convert percentage to decimal
