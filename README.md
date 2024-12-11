@@ -30,7 +30,7 @@ Use this tool for long-term financial planning to understand how housing expense
 By using **`housing_income_calculator.py`**, you can make more informed decisions about housing expenses, helping you maintain financial health and balance.
 
 
-## **Detailed Description:**
+## **Detailed Workflow:**
 ```
          ┌────────────────────────────────────────────────────────────────┐
          │                      Inputs                                    │
